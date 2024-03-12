@@ -1,0 +1,6 @@
+npm install -g  @angular/cli
+ng new feedback-system-upskilling
+
+git add .
+git commit -m "Angular project created"
+git push origin main

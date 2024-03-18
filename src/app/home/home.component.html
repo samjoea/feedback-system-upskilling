@@ -27,7 +27,7 @@
 
     </div>
 
-         <div class="flex justify-start items-center py-6 gap-30">
+         <div class="flex justify-start items-center py-6 gap-30 mt-5">
             @for (topic of cardTopic; track topic.title) {
                 <div class="flex-col gap-2 justify-start">
                     <p class="font-jost font-medium text-h2 dark:text-main-white text-main-black ">{{topic.title}}({{topic.no}})</p>
@@ -35,7 +35,22 @@
     
                 </div>
             }
+           
 
+         </div>
+         <div>
+            <div class="rounded-lg w-350 h-350 bg-gray-50 mt-5 text-start ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-0">
+                <div class="bg-main-orange w-auto rounded-t-lg h-2"></div>
+                <div class="mx-auto  px-1">
+                  <p class="text-base font-jost text-body-2 text-main-lighter">Planned</p>
+                  <p class="mt-6 flex items-baseline justify-center gap-x-2">
+                    <span class="text-5xl font-bold tracking-tight text-gray-900">$349</span>
+                    <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
+                  </p>
+                  <!-- <a href="#" class="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get access</a> -->
+                  <p class="mt-6 text-xs leading-5 text-gray-600">Invoices and receipts available for easy company reimbursement</p>
+                </div>
+              </div>
          </div>
 </div>
   

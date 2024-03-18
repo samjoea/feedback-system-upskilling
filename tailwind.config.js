@@ -16,7 +16,8 @@ module.exports = {
         'main-gray-deeper': '#647196',
         'main-orange': '#F49F85',
         'main-light-blue': '#62BCFA',
-        'main-hover': '#C75AF6'
+        'main-hover': '#C75AF6',
+        'main-lighter': '#647196',
       },
 
       fontFamily:{
@@ -53,7 +54,7 @@ module.exports = {
         '128': '1110px',
         '120': '830px',
         '30':  '12rem',
-        '350': '350px',
+        '350': '300px',
       },
 
       container: {

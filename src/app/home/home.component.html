@@ -1,0 +1,42 @@
+<main class="container-fulln h-screen py-6 px-4 sm:p-6 md:py-10 md:px-8 dark:bg-main-black">
+    <div class="container w-128 px-5 py-2">
+         <!-- header  -->
+    <div class="container w-128 bg-main-black dark:bg-main-white px-5 py-2 rounded-lg">
+        <div class="font-medium flex justify-center items-center gap-120">
+            <div class="text-main-white ` text-h4 font-jost">
+                <div class="flex-col justify-center align-middle">
+                    <button class="flex align-middle justify-center gap-3 font-jost">
+                        <svg class="mt-2" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.33447 9L0.334473 5L4.33447 1" stroke="#CDD2EE"  stroke-width="2" />
+    
+                        </svg>
+                        <h1 class="mt-1 hover:underline font-jost dark:text-main-black">Go Back</h1>
+                    </button>
+                    <div class="text-main-white text-h1 font-jost dark:text-main-black font-semibold">Roadmap</div>
+                </div>
+            </div>
+
+
+            <div>
+                <button class="bg-main-purple px-2 py-2 rounded-lg text-main-white font-jost hover:bg-main-hover">
+                    + Add Feedback
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+         <div class="flex justify-start items-center py-6 gap-30">
+            @for (topic of cardTopic; track topic.title) {
+                <div class="flex-col gap-2 justify-start">
+                    <p class="font-jost font-medium text-h2 dark:text-main-white text-main-black ">{{topic.title}}({{topic.no}})</p>
+                    <p class="font-jost text-body-2 dark:text-main-white text-main-black ">{{topic.description}}</p>
+    
+                </div>
+            }
+
+         </div>
+</div>
+  
+</main>

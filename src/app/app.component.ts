@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'feedback-system-upskilling';
+  title = 'feedback-system-upskilling - christian jones';
 }

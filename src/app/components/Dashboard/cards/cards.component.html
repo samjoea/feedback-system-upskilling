@@ -1,0 +1,41 @@
+
+
+@for (CardDetails of CardDetails; track CardDetails.id){
+
+<div class="card pt-0 relative w-825 h-151 top-0 left-450 bg-white rounded-lg shadow-sm p-6 mb-5 ">
+
+  <div class="top-0 py-8">
+    <button class="w-10 h-12 rounded-lg font-bold cursor-default " style="background-color: #F2F4FE;">
+      <img src="assets/arrow.svg" alt="" srcset="" class="w-3 ml-3 top-5 cursor-pointer " (click)="Increase($event)" >
+      {{CardDetails.click}}
+    </button>
+  </div>
+
+  <div >
+  <div class="comment ml-80 space-x-3 top-16 absolute size-10">
+    <div>
+      <img src="assets/chat.svg" alt="" srcset="" id="chat" class="mt-1">
+</div>
+    <div class="font-bold">{{CardDetails.comment}}</div>
+  </div>
+
+
+  <div class="inner-card">
+
+    <h3>{{CardDetails.head}}</h3>
+    <p>{{CardDetails.paragraph}}</p>
+
+    <div class="pt-5">
+      <button class="w-158 h-10 right rounded-lg text-black pl-5 pr-5 bg-gray-100  font-bold " style="color:#4661E6;">{{CardDetails.btnNumber}}</button>
+    </div>
+
+
+
+
+  </div>
+</div>
+
+
+
+</div>
+}

@@ -1,0 +1,31 @@
+.card{
+  width: 825px;
+  height: 151px;
+  left: 334px;
+  top: 100px;
+
+}
+h3{
+  font-weight: bold;
+  line-height: 40px;
+}
+.inner-card{
+  top:10px;
+  position: absolute;
+  left: 100px;
+
+}
+.count{
+  margin-top: 30px;
+}
+.comment{
+  margin-top: 0px;
+  margin-left: 700px;
+  display: inline-flex;
+
+}
+#chat{
+  width: 25px;
+}
+
+

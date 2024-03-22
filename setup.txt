@@ -3,4 +3,18 @@ ng new feedback-system-upskilling
 
 git add .
 git commit -m "Angular project created"
+
 git push origin main
+
+ng g c Front-Mentor, Dashboard
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init
+
+
+git init
+
+git add .
+
+git commit -m "Your commit message here"

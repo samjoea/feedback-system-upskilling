@@ -1,10 +1,14 @@
 <div class="card pt-12  absolute h-151 top-0 left-24">
-  <div class="">
+  <div class="leading-21">
+    <div>
+      <p class="absolute pl-6 mt-14 pb-3 text-white text-x font-black">{{Frontend}}</p>
+      <p class="absolute pl-6 mt-20 left-0 pb-3 text-white text-sm font-normal">{{FeedbackBoard}}</p>
+    </div>
+
     <img src="assets/fe.png" alt="" srcset="" class="w-">
   </div>
 
   @for (cardOne of cardOne; track cardOne.all) {
-
 
 <div class="card pt-0 relative   h-44 top-5 left-450 bg-white rounded-lg shadow-sm p-6 mb-10  ">
 
@@ -45,27 +49,29 @@
 
 <div class="card pt-0 relative  h-44 top-0 left-450 bg-white rounded-lg shadow-sm p-6 mb-10 flex space-x-5">
 
-  <div class="space-x-14 pt-5 ">
-      <div class="card pt-0 absolute grid  h-7  text-black w-max   ">
-    <h3 class="font-bold text-gray-700">Roadmap</h3>
-    <ul>
-      <li class="text-orange-400 list-disc ml-4 mt-4 list"  >  Planned</li>
-      <li class="text-violet-600 list-disc ml-4 mt-1 list"  >  In-Progress</li>
-      <li class="text-blue-500 list-disc ml-4 mt-1 list "  >  Live</li>
 
-    </ul>
-  </div>
-      <div class="card pt-0 absolute grid  h-7  text-black w-max left-36 ">
-    <h3 class="font-medium text-blue-500  underline ml-0">view</h3>
-    <ul>
-      <p class=" list-disc ml-4 mt-4 font-bold">  2</p>
-      <p class="list-disc ml-4 mt-1 font-bold">  3</p>
-      <p class=" list-disc ml-4 mt-1 font-bold">  1</p>
+    <div class="space-x-14 pt-5 ">
+        <div class="card pt-0 absolute grid  h-7  text-black w-max   ">
+      <h3 class="font-bold text-gray-700">{{Roadmap}}</h3>
+      <ul>
+        <li class="text-orange-400 list-disc ml-4 mt-4 list"  > {{Planned}}</li>
+        <li class="text-violet-600 list-disc ml-4 mt-1 list"  >{{InProgress}}</li>
+        <li class="text-blue-500 list-disc ml-4 mt-1 list "  >{{live}}</li>
 
-    </ul>
-  </div>
+      </ul>
+    </div>
+        <div class="card pt-0 absolute grid  h-7  text-black w-max left-36 ">
+      <h3 class="font-medium text-blue-500  underline ml-0">{{view}}</h3>
+      <ul>
+        <p class=" list-disc ml-4 mt-4 font-bold">  {{two}}</p>
+        <p class="list-disc ml-4 mt-1 font-bold">  {{three}}</p>
+        <p class=" list-disc ml-4 mt-1 font-bold">  {{one}}</p>
 
-  </div>
+      </ul>
+    </div>
+
+    </div>
+
 
 
   <div class="card pt-0 relative flex space-x-24  h-7  text-black w-5 top-5 left-0  ">

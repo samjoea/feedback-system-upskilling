@@ -9,7 +9,11 @@ import { Component } from '@angular/core';
 })
 export class FrontMentorComponent {
 
+  Frontend: string = "Frontend Mentor"
+  FeedbackBoard: string = "Feedback Board"
+
 cardOne: any[] = [
+
 
 {
   all:"All",
@@ -20,18 +24,24 @@ cardOne: any[] = [
   feature: "Feature",
 
 },
-// {
-//   all:"All",
-//   ui: "UI",
-//   ux: "UX",
-//   enhance: "Enhancement",
-//   bug: "Bug",
-//   feature: "Feature",
-
-// },
 
 
 ]
+
+
+    Roadmap: string = "Roadmap"
+    Planned: string =  "Planned"
+    InProgress: string = "In-Progress"
+    live: string = "Live"
+    view: string = "view"
+    feature: string = "Feature"
+
+    two: number = 2
+    three: number =  3
+    one: number =  1
+
+
+
 
 
 }
